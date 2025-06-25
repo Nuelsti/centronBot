@@ -1,0 +1,36 @@
+.nav-header{
+    background:#000000;
+   
+    padding: .5rem 2.5rem;
+    @media (max-width: 768px) {
+        padding: 0.5rem;
+    }
+}
+.nav-header-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:0 auto;
+
+}
+.nav-logo{
+    display:flex;
+    /* justify-content:; */
+    gap:.5rem;
+    align-items:center;
+}
+.nav-logo-content .logo-cont{
+    font-size:24px;
+    /* font-family:'Avenir Next', sans-serif; */
+    /* font-family:'Roboto', sans-serif; */
+    font-family:'Aeonik-Regular', sans-serif;
+    color:#ffffff;
+    font-weight:700;
+}
+.sub-logo-cont{
+    font-weight:100;
+}
+.nav-btn{
+    /* padding:0.5rem 2rem; */
+    /* border-radius:8px; */
+}

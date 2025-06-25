@@ -1,0 +1,16 @@
+.hero-head{
+    background-image:'../../assets/Mask group.png';
+    /* z-index:1000; */
+}
+.hero-container{
+    max-width:850px;
+    width:100%;
+    margin: 200px auto;
+    text-align:center;
+}
+.hero-container-content{
+    color:#ffffff;
+}
+.content-style{
+    color:#3FFF90;
+}
