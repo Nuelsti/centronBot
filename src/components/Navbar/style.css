@@ -1,36 +1,102 @@
-.nav-header{
-    background:#000000;
-   
-    padding: .5rem 2.5rem;
-    @media (max-width: 768px) {
+.nav-header {
+    background: #000000;
+    padding: 1rem 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .nav-header {
         padding: 0.5rem;
     }
 }
-.nav-header-container{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin:0 auto;
 
+@media (max-width: 480px) {
+    .nav-header {
+        padding: 0.5rem 1rem;
+    }
 }
-.nav-logo{
-    display:flex;
-    /* justify-content:; */
-    gap:.5rem;
-    align-items:center;
+
+.nav-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
-.nav-logo-content .logo-cont{
-    font-size:24px;
-    /* font-family:'Avenir Next', sans-serif; */
-    /* font-family:'Roboto', sans-serif; */
-    font-family:'Aeonik-Regular', sans-serif;
-    color:#ffffff;
-    font-weight:700;
+
+.nav-logo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
-.sub-logo-cont{
-    font-weight:100;
+
+@media (max-width: 480px) {
+    .nav-logo {
+        gap: 0.25rem;
+    }
 }
-.nav-btn{
-    /* padding:0.5rem 2rem; */
-    /* border-radius:8px; */
+
+.logo-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-logo-content .logo-cont {
+    font-size: 24px;
+    font-family: 'Aeonik';
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .nav-logo-content .logo-cont {
+        font-size: 20px;
+    }
+    .logo-img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-logo-content .logo-cont {
+        font-size: 18px;
+    }
+    .logo-img{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.sub-logo-cont {
+    font-weight: 100;
+    font-family: 'Aeonik';
+}
+
+.nav-btn {
+    font-family: 'Aeonik';
+}
+
+.btn-btn {
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    font-family: 'Aeonik';
+    cursor: pointer;
+    border: none;
+    background: #333;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .btn-btn {
+        padding: 0.4rem 1.5rem;
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .btn-btn {
+        padding: 0.4rem 1rem;
+        font-size: 12px;
+    }
 }

@@ -1,0 +1,112 @@
+.social-head {
+    max-width: 850px;
+    width: 100%;
+    margin: 50px auto;
+    border: 1px solid #161616;
+     font-family: 'Aeonik';
+    background: #161616;
+    /* background: #000000; */
+    border-radius: 40px;
+    padding: 0 20px;
+}
+.social{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .social-head {
+        margin: 30px auto;
+        padding: 0 15px;
+        border-radius: 25px;
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-head {
+        margin: 20px auto;
+        padding: 0 10px;
+        border-radius: 20px;
+        max-width: 90%;
+    }
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .social-container {
+        gap: 20px;
+        padding: 12px 0;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-container {
+        gap: 15px;
+        padding: 10px 0;
+        justify-content: space-around;
+    }
+}
+
+.social {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+    min-width: fit-content;
+}
+
+.social:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .social {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    .social {
+        font-size: 14px;
+    }
+}
+
+.social-cont {
+    margin: 0;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+    .social-cont {
+        padding: 6px 8px;
+    }
+}
+
+/* Ensure no text wrapping on very small screens */
+@media (max-width: 320px) {
+    .social-container {
+        gap: 8px;
+    }
+    
+    .social-cont {
+        padding: 4px 6px;
+        font-size: 12px;
+    }
+}
